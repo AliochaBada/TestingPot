@@ -1,0 +1,136 @@
+
+
+body{
+font-family: system-ui,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,'Montserrat','garnett',sans-serif,Arial;
+color: #0e0d0d;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0.5px;
+}
+
+
+
+p a,li a{
+    text-decoration-line: none ;
+    text-decoration-style: solid;
+    color: #1626d0;
+}
+
+a{
+    color: #0e0d0d;
+    text-decoration-line: none ;
+}
+
+.bg {
+    position: absolute;
+    left: 24px;
+    top: 56px;
+    right: 24px;
+    bottom: 24px;
+    z-index: -1;
+    user-select: none;
+    height: 100% -56px;
+    border-radius: 45px;
+    background-color: #636c78;
+    width: 100%-24px;
+
+
+}
+
+.bg1{
+    z-index: -1;
+    user-select: none;
+    background-color: #ffe100;
+    background-clip: border-box;
+    min-height:100%;
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+
+
+}
+
+.bdNav{
+    margin-top: 15px;
+    display:flex;
+    flex-direction:row;
+    line-height: 1em;
+    align-items:stretch;
+    justify-content: space-around;
+    z-index: 1;
+    border-bottom: 4px solid #0e0d0d;
+    border-top: 4px solid #0e0d0d;
+
+
+
+}
+
+.H{
+
+    display:block;
+
+
+}
+
+h1{
+    display : block;
+    text-align: center;
+    font-weight: 700;
+    color: #0e0d0d;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+h2{
+        color: #0e0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+
+}
+
+h3{
+    font-weight: 400;
+    color: #0e0d0d;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+.H1__Img{
+    position:absolute;
+    right:24px;
+    bottom:24px;
+    height:40vh ;
+    z-index: 0;
+
+}
+
+.H1__Form{
+
+
+}
+
+label{
+    display: block;
+    width:200px;
+    float:left;
+
+}
+
+.button-add{
+    background-color: rgb(255 67 45);
+    color: rgb(255 255 255);
+    border-radius: 624.9375rem;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: all .5s cubic-bezier(.45,.97,.87,.98);
+    line-height: 16px;
+    tab-size: 4;
+    padding-bottom: 15px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 15px;
+
+}

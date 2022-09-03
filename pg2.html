@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="pg1" href="index.html">
+    <link rel="pg2" href="pg2.html">
+    <link rel="pg3" href="pg3.html">
+    <link rel="pg4" href="pg4.html">
+
+</head>
+
+<body>
+
+    <div class="bdNav">
+        <div class="bdNav__P1"><a href="index.html">IN PROG FOCUS</a></div>
+        <div class="bdNav__P2"><a href="pg2.html">NEXT FOCUS</a></div>
+        <div class="bdNav__P3"><a href="pg3.html">HOT RESSOURCES</a></div>
+        <div class="bdNav__P4"><a href="pg4.html">VIBES</a></div>
+    </div>
+
+    <div class="bg1">
+
+        <div class="bg">
+
+            <h1 class="H1">NEXT FOCUS</h1>
+
+                <form class="H1__Form" method="post">
+                    <fieldset>
+                        <h2>
+                            <legend>Enter a new focus to train</legend>
+                        </h2>
+                            <h3>
+
+                                <p>
+
+                                    <label for="focus-type-choice">Type of Focus</label>
+                                    <input list="focus-types" id="focus-type-choice" name="focus-type-choice">
+                                    <datalist id="focus-types">
+                                        <option value="General">
+                                        <option value="Ressources">
+                                        <option value="Html">
+                                        <option value="Css">
+                                        <option value="Visual Code">
+                                        <option value="Visual vibes">
+                                        <option value="Sound vibes">
+                                    </datalist>
+                                </p>
+
+                                <p>
+                                    <label for="focus-titre">Focus (stay sober)</label>
+                                    <input type="text" id="focus-titre" name="focus-titre" required minlength="4" maxlength="20" size="20">
+                                </p>
+
+                                <p>
+                                    <label for="focus-descr">Description</label>
+                                    <textarea id="focus-desc" name="focus-desc" rows="5" cols="24"></textarea>
+                                </p>
+
+                                <p>
+                                    <label for="focus-priority">How important</label>
+                                    <input type="range" id="focus-priority" name="focus-priority" min="0" max="10">
+                                </p>
+
+                                <p>
+                                    <label for="focus-difficulty">How tricky</label>
+                                    <input type="range" id="focus-difficulty" name="focus-difficulty" min="0" max="10">
+                                </p>
+
+                                <p>Milestones</p>
+                                <p>
+                                    <label for="focus-step1-label">Milestone 1</label>
+                                    <label for="focus-step1">
+                                        <input type="text" id="focus-step1-label" name="focus-step1-label">
+                                    </label>
+                                    <input type="checkbox" id="focus-step1-checkbox" name="focus-step1">
+                                </p>
+
+                                <p>
+                                    <label for="focus-step2-label">Milestone 2</label>
+                                    <label for="focus-step2">
+                                        <input type="text" id="focus-step2-label" name="focus-step2-label">
+                                    </label>
+                                    <input type="checkbox" id="focus-step2-checkbox" name="focus-step2">
+
+                                </p>
+
+                                <p>
+                                    <label for="focus-step3-label">Milestone 3</label>
+                                    <label for="focus-step3">
+                                        <input type="text" id="focus-step3-label" name="focus-step3-label">
+                                    </label>
+                                    <input type="checkbox" id="focus-step3-checkbox" name="focus-step3">
+
+                                </p>
+
+                                <p>
+                                    <span class="button-add">ADD FOCUS</span>
+                                </p>
+                            </h3>
+                    </fieldset>
+
+                </form>
+        </div>
+    </div>
+
+
+</body>
+
+<!--/*
+page 2      HTML form :
+1 fieldset
+3 inputs
+2 text
+1 checkbox
+1 textarea
+1 button
+*/-->
